@@ -1,0 +1,104 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Carlos Manuel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho fixo -->
+    <header class="header">
+        <div class="container-header">
+            <img src="cj 4.png" alt="Carlos Manuel" class="foto-perfil">
+            <div class="info-header">
+                <h1>Carlos Manuel</h1>
+                <p>Desenvolvedor Web</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Meus Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="mailto:caluchojunior2005@icloud.com" class="btn-contato">Contacte-me</a>
+    </header>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" class="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Eu sou o Carlos Manuel, tenho 18 anos e sou desenvolvedor web. Tenho paixão por programação e crio websites dinâmicos e responsivos. Minha missão é melhorar a experiência digital dos usuários através de soluções tecnológicas criativas.</p>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="habilidades" class="habilidades">
+        <h2>Minhas Habilidades</h2>
+        <div class="skills">
+            <div class="skill">
+                <label for="html">HTML</label>
+                <progress id="html" value="90" max="100"></progress>
+            </div>
+            <div class="skill">
+                <label for="css">CSS</label>
+                <progress id="css" value="80" max="100"></progress>
+            </div>
+            <div class="skill">
+                <label for="javascript">JavaScript</label>
+                <progress id="javascript" value="70" max="100"></progress>
+            </div>
+            <div class="skill">
+                <label for="ingles">Inglês</label>
+                <progress id="ingles" value="85" max="100"></progress>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Meus Projetos -->
+    <section id="projetos" class="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="Création d'un site CV monopage responsive en HTML et CSS - Pierre Giraud.jpeg" alt="Projeto 1">
+                <div class="card-body">
+                    <p> projeto 1</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Código fonte da área de trabalho e papel de parede por linguagem de computador com codificação e programação_ _ Foto Premium.jpeg" alt="Projeto 2">
+                <div class="card-body">
+                    <p> projeto 2</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Você já considerou ter um site para sua empresa ou….jpeg" alt="card">
+                <p>projeto 3</p>
+            </div>
+            <!-- Adicione mais cards conforme necessário -->
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato" class="contatos">
+        <h2>Contato</h2>
+        <form action="mailto:caluchojunior2005@icloud.com" method="POST" enctype="multipart/form-data">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu E-mail" required>
+            <textarea name="mensagem" rows="4" placeholder="Sua mensagem" required></textarea>
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+    </section>
+    
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Carlos Manuel o Programador</p>
+        <div class="redes socias">
+            <img src="whatsapp-logo-24.png" alt="whatsapp">
+            <img src="instagram-alt-logo-24.png" alt="instagram">
+            <img src="facebook-circle-logo-24.png" alt="facebook">
+        </div>
+    </footer>
+</body>
+</html>
